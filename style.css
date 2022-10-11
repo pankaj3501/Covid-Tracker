@@ -1,0 +1,203 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/*---navbar start---*/
+.navbar1{
+     height: 80px;
+    }
+.bg1{
+     background-color: blue;
+    }
+.btn1{
+    margin-left: 10px;
+}
+.cont a{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+/*---nvbar complete--*/
+/*--menubar start ---*/
+.dash{
+    color:blue;}
+.door1{
+    color: blue;}
+.door2{
+    padding-left: 9px;
+}
+.navbar1 ul li{
+    padding: 20px 10px;
+}
+.navbar1 ul li a{
+    color:blue;
+}
+.navbar2{
+    height: 70px;
+}
+/*--menubar complete---*/
+/*-----marq start-----*/
+.marq
+{
+  background-color: blue;
+  height: 8vh;
+  color: aliceblue;
+}
+/*---marq complete---*/
+/*----dashboardstart---*/
+.colr11{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; 
+    height: 60vh;
+}
+.colr1{
+    height: 35vh;
+}
+.card-body11{
+    padding-left: 80px;
+    padding-top: 100px;
+}
+.card-body11 h5{
+    font-size: 0.8rem;
+}
+
+
+
+
+
+
+.col2{
+   margin-left: 90px;
+}
+.col1{
+   margin-left: 90px;
+}
+.card1{
+    background-color: blue;
+}
+.cards{
+    background-color:#20c997 ;
+}
+.text1{
+
+     padding-top: 60px;
+}
+.cards1{
+    background-color:#d63384 ;
+}
+.usa
+{
+    padding-left: 5px;
+}
+.colrs{
+box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.scrollmenu tr:hover{
+ background-color:blanchedalmond;
+ }
+ .card-img
+ {
+    padding: 20px;
+ }
+.card-body1 p{
+    font-size: 15px;
+}
+.btn1{
+    border: 1px solid black;
+}
+.affect{
+    padding-top: 70px;
+}
+.cor{
+    height: 250px;
+}
+.cor1 ul{
+  border: 1px solid grey;
+  margin-top: 40px;
+  padding: 20px;
+ }
+.cor1 ul li{
+    display: inline;
+    list-style: none;
+    padding: 20px;
+}
+.row2{
+ 
+    margin-left: 20px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    height: 200px;
+}
+.row2 h4{
+    padding-top: 10px;
+}
+
+.btn{
+    padding: 10px 20px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.btn4{
+    padding-top: 20px;
+}
+.row4
+{
+    margin-left: 20px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    height: 300px;
+}
+.cold
+{
+  padding: 50px;
+}
+.cold .po{
+    color: blue;
+    font-size: 30px;
+}
+
+.row11
+{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding-top: 7px;
+    margin-top: 30px;
+}
+.row11 h4{
+
+    padding:20px;
+}
+
+@media(max-width:767px)
+{
+
+    .row11{
+        margin-top: 40px;
+    }
+    .row4{
+
+        height: 400px;
+    }
+    .row2{
+
+        height: 300px;
+        margin-top: 20px;
+
+    }
+    .cor1 ul li{
+      font-size: 10px;
+    }
+    .row3
+    {
+        margin-top: 40px;
+    }
+    .colrs
+    {
+        width: 500px;
+    }
+    .card5{
+        margin-right: 80px;
+    }
+
+}
+
+
+ 
+
+
+
+
