@@ -1,0 +1,26 @@
+body{
+    background-image: url(images/form2.jpg);
+    padding: 20px;
+    margin: 40px;
+}
+
+.login_form {
+    height: 100%;
+    width: 400px;
+    margin:5px;
+    padding: 0px;
+    box-sizing:border-box;
+    box-shadow: tomato;
+}
+.test{
+    width: 40px;height: 10px;
+
+}
+.submit_button {
+    background-color: green;
+    text-align:center;
+    height: 40px;
+    width: 100px;
+    border-radius: 10px;
+}
+
