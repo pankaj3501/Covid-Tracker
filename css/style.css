@@ -73,19 +73,7 @@
 .col1{
    margin-left: 90px;
 }
-.card1{
-    background-color: blue;
-}
-.cards{
-    background-color:#20c997 ;
-}
-.text1{
 
-     padding-top: 60px;
-}
-.cards1{
-    background-color:#d63384 ;
-}
 .usa
 {
     padding-left: 5px;
@@ -109,9 +97,7 @@ box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 .affect{
     padding-top: 70px;
 }
-.cor{
-    height: 250px;
-}
+
 .cor1 ul{
   border: 1px solid grey;
   margin-top: 40px;
@@ -142,9 +128,8 @@ div.scrollmenu {
 div.scrollmenu li {
     display: inline-block;
     color: black;
+    padding: 15px ;
 
-    padding-left: 40px;
-    padding-top: 10px;
     text-decoration: none;
   }
   .row2{
@@ -176,8 +161,7 @@ div.scrollmenu li {
     margin-top: 30px;
 }
 .row11 h4{
-
-    padding:20px;
+      padding:20px;
 }
 /*---new update complete---*/
 @media(max-width:576px)
