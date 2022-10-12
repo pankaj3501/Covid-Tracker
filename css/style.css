@@ -5,10 +5,10 @@
 /*---navbar start---*/
 .navbar1{
      height: 80px;
-    }
+}
 .bg1{
      background-color: blue;
-    }
+}
 .btn1{
     margin-left: 10px;
 }
@@ -18,7 +18,8 @@
 /*---nvbar complete--*/
 /*--menubar start ---*/
 .dash{
-    color:blue;}
+    color:blue;
+}
 .door1{
     color: blue;}
 .door2{
@@ -46,6 +47,7 @@
 .colr11{
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; 
     height: 60vh;
+    color:#d63384;
 }
 .colr1{
     height: 35vh;
@@ -56,6 +58,13 @@
 }
 .card-body11 h5{
     font-size: 0.8rem;
+}
+.cols{
+    height: 30vh;
+}
+.card{
+    width: 15rem; 
+    height:14rem;
 }
 
 
@@ -162,9 +171,24 @@ box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     padding:20px;
 }
 
-@media(max-width:767px)
+@media(min-width:576px)
 {
+    .card{
+        width: 400px;
+        margin-top: 10px;
+     
+       
+    }
+  
 
+    .colr11{
+        width: 450px;
+    }
+    .cols{
+        margin-top: 20px;
+        
+    }
+   
     .row11{
         margin-top: 40px;
     }
@@ -194,10 +218,17 @@ box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     }
 
 }
-
-
- 
-
-
-
-
+@media(min-width:768px)
+{
+   .colr11{
+        width: 600px;
+    }
+  
+    .card{
+        width: 400px;
+        margin-top: 10px;
+     }
+     .cols1{
+        margin-left: 10px;
+     }
+}

@@ -4,11 +4,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>CovidTrackingProject</title>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css" integrity="sha384-xeJqLiuOvjUBq3iGOjvSQSIlwrpqjSHXpduPd6rQpuiM3f5/ijby8pCsnbu5S81n" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" /> 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/brands.min.css" integrity="sha512-+oRH6u1nDGSm3hH8poU85YFIVTdSnS2f+texdPGrURaJh8hzmhMiZrQth6l56P4ZQmxeZzd2DqVEMqQoJ8J89A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -20,7 +20,8 @@
           <a class="navbar-brand text-white ps-3">Corot.</a>
           <form class="d-flex">
             <p class="text-white">Help(Poor people)And Donate Us</p>
-            <button class="btn btn-light btn1" type="submit">Donet</button>
+        
+           <a href="donet.html" class="btn btn-white bg-white">Donet</a>   
           </form>
         </div>
       </nav>
@@ -35,12 +36,11 @@
             <ul class="navbar-nav ">
                 <li class="list-inline-item ">
                     <i class="bi bi-house-door door1 door2"></i>
-                    <span class="dash">Dashboard</span>
+                  <span class="dash">Dashboard</span></a>
                 </li>
                 <li class="list-inline-item">
                     <i class="bi bi-newspaper door1"></i>
                     <span>News</span>
-                    <i class="bi bi-chevron-compact-down"></i>
                 </li>
                 <li class="list-inline-item ">
                     <i class="bi bi-symmetry-horizontal door1"></i>
@@ -74,24 +74,24 @@
       </div>
 <!--dashboard start-->
           <div class="container my-3">
-          <div class="div_center">
-           <div class="row ms-2">
-               <div class="col-md-6 col-lg-6 col-12 col-sm-12 py-5 colr11">
+          <div class="row  ms-2">
+               <div class="col-md-6 col-lg-6 col-12 col-sm-12 bg-success py-5 colr11">
                 <h5>Cases By Country</h5>
                 </div>
                 <div class="col-md-6 col-lg-6 col-12 col-sm-12">
-                  <!---first row start-->
-                  <div class="row py-3">
+                <!---first row start-->
+                  <div class="container">
+                  <div class="row my-1">
                   <div class="col-md-6 col-sm-12 col-12 cols">
-                    <div class="card" style="width: 18rem; height:12rem; ">
+                    <div class="card mx-auto">
                       <div class="card-body card-body1">
                         <h5 class="card-title">Coronavirus Cases</h5>
                         <h6 class="card-subtitle mb-2 text-muted">0,000,000</h6>
                     </div>
                     </div>
                     </div>
-                    <div class="col-md-6 col-sm-12 col-12 cols">
-                    <div class="card" style="width: 18rem; height:12rem; ">
+                    <div class="col-md-6 col-sm-12 col-12 cols cols1">
+                    <div class="card card9 mx-auto">
                       <div class="card-body card-body1 bg-success">
                         <h5 class="card-title">Card title</h5>
                         <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
@@ -99,28 +99,33 @@
                     </div>
                     </div>
                     </div>
+                  </div>
                     <!---first row complete-->
+                    <div class="container">
                     <div class="row py-3">
-                      <div class="col-md-6 col-sm-12 col-12">
-                        <div class="card" style="width: 18rem; height:12rem;">
+                      <div class="col-md-6 col-sm-12 col-12 cols">
+                        <div class="card mx-auto" >
                           <div class="card-body card-body1">
                             <h5 class="card-title">Card title</h5>
                             <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
                         </div>
                         </div>
                             </div>
-                            <div class="col-md-6 col-sm-12 col-12">
-                              <div class="card" style="width: 18rem;height:12rem;">
+                            <div class="col-md-6 col-sm-12 col-12 cols">
+                              <div class="card mx-auto" >
                                 <div class="card-body card-body1">
                                   <h5 class="card-title">Card title</h5>
                                   <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
                                 </div>
                               </div>
-                        </div>
+                          </div>
                     </div>
-                      </div>
-                </div>
-</div>
+                    </div>
+                    </div>
+                    </div>
+          </div>
+               
+                    
 
   <!---section1 completed-->
   <section class="sec1">
