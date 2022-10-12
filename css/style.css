@@ -170,6 +170,15 @@ box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 
     padding:20px;
 }
+@media(min-width:576px)
+{
+    .card{
+        width: 400px;
+        margin-top: 10px;
+     
+       
+    }
+  
 
 @media(min-width:576px)
 {
