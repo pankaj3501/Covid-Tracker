@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link rel="stylesheet" href="css/registration.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Patient Form </title>
+</head>
+<body>
+    <h2>Login Form</h2>
+        <form class="login_form">
+                    <table>
+                        <!--Patient ID-->
+                        <tr>   
+                            <td><label for="patient-id">Patient ID </label> </td>
+                            <td>  <input placeholder="Enter patient ID "  name="ID" />
+                        </tr>
+
+                        <!-- Enter the name -->
+                        <tr>  
+                            <td class="tdLabel"><label  class="label">Enter name:</label>   </td>  
+                            <td><input type="text" placeholder="Enter Name "  name="Enter name" id="register_name" />  </td>  
+                        </tr>
+
+                        <!-- Select Gender -->
+                        <tr>  
+                            <td class="tdLabel"><label for="register_gender" class="label">Enter Gender:</label></td>  
+                            <td>  
+                                    <input type="radio" name="gender" id="register_gendermale" value="male"/>  
+                                    <label >male</label>  
+                                    <input type="radio" name="gender" id="register_genderfemale" value="female"/>  
+                                    <label >female</label>  
+                                    <input type="radio" name="gender" id="register_genderSemale" value="Semale"/>  
+                                    <label >Semale</label>
+                            </td>
+                        </tr>
+                        <!-- Select birthdate -->
+                        <tr>
+                            <td><label for="birthday">Birthday:</label> </td>
+                            <td><input type="date" id="birthday" name="birthday"> </td>
+                        </tr>
+
+                        <!-- input the mobile number-->
+                        <tr>
+                                <td> <label for="phone">Enter your phone:</label>  </td>
+                                <td>
+                                    <input type="tel" placeholder="Enter Phone" id="phone" name="phone" pattern="[[0-9]{2}-[0-9]{2}-[0-9]{2}-[0-9]{}">
+                                </td>
+                        </tr>
+
+                        <!--  Enter Email -->
+                        <tr>  
+                            <td class="tdLabel"><label for="register_email" class="label">Enter Email:</label></td>  
+                            <td>
+                                <input type="email" placeholder="Enter Email" name="email" value="" id="register_email" style="width:160px"/>
+                            </td> 
+                        </tr>
+                        
+                        <!-- Enter Address -->
+                
+                                        <td class="tdLabel"><label  class="label">Select Country:</label></td>  
+                                        <td>
+                                            <select name="country" id="register_country" style="width:160px">  
+                                                    <option value="india">india</option>  
+                                                    <option value="Nepal">Nepal</option>  
+                                                    <option value="africa">africa</option>  
+                                                    <option value="china">china</option>  
+                                                    <option value="other">other</option>  
+                                            </select>  
+                                        </td>
+
+                                        <td class="tdLabel"><label  class="label">State:</label></td>  
+                                        <tr>
+                                            <select name="state" id="register_state" style="width:60px">  
+                                                    <option value="Uttar pradesh ">Uttar Pradesh</option>  
+                                                    <option value=" Utrakhand ">utrakhand </option>  
+                                                    <option value="Madhya Pradesh"> madhya Pradesh</option>  
+                                                    <option value="Rajeshthan">Rajeshthan</option>  
+                                                    <option value="kerla"> kerla</option> \
+                                                    <other value=" other" >other</other> 
+                                            </select>  
+                                        </tr> 
+
+                                        <tr> <label  class="label">Select city:</label></tr>  
+                                        <tr>
+                                            <select name="city" id="register_city" style="width:160px">  
+                                                    <option value="Noida">Noida</option>  
+                                                    <option value="jalaun">jalaun</option>  
+                                                    <option value="kanpur">kanpur</option>  
+                                                    <option value="jhansi">jhansi</option>  
+                                                    <option value="gwalior">dist 1</option>
+                                                    <option value="gwalior">dist 2</option> 
+                                                    <option value="gwalior">dist 3</option> 
+                                                    <option value="gwalior">gwalior</option>
+                                                    <option value="other"> other</option> 
+                                            </select>
+                                        </tr>
+
+                                        <td>   <label class="label"> Block </label>  </td>
+                                        <td><input type="text" placeholder=" enter Block name"> </td><br
+                
+                        
+                        <div class="test">
+                            <td><label for="patient-test"> PCR </label> </td>
+                            <td> <input type="checkbox" id="TEST1" name="TEST 1" value="PCR"> </td>  
+
+                            <td> <label for="patient-test"> RT-PCR</label> </td>                 
+                            <td>  <input type="checkbox" id="TEST2" name="TEST 2" value="RT-PCR"> </td>
+
+                            <td><label for="patient-test"> other </label> </td>
+                            <td> <input type="checkbox"  name="other" value="other"> </td>
+                        </div>
+
+                        <!-- Date of testing -->
+                        <tr>
+                            <td><label for="birthday"> Testing Date :</label>:</label> </td>
+                            <td><input type="date" id="testing-date" name="testing"> </td>
+                        </tr>
+
+
+                        <!-- Report no-->
+                        <tr>
+                        <td> <label for="report-no">Report Nuber :</label></td>
+                        <td> <input type="text" placeholder=" Enter Report No" value="Enter Report No"></td>
+                        </tr>
+                        
+
+                        <!-- Patient Status -->
+                        <tr>
+                            <td><label for="patient-status"> Patient Status :</label></td>
+                            <td> 
+                                <select name="patient_status" id="patient_status">
+                                    <option value="Normal">Normal</option>
+                                    <option value="mid"> Out of danger</option>
+                                    <option value="Serious">Serious </option>
+                                </select>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td><label for="Suggestion">Suggestion By Doctor</label></td>
+                            <td><textarea name="Suggestion by Doctor" id="" cols="30" rows="10"> </textarea></td>
+                        </tr>
+        
+
+                        <!--Submit button-->
+                        <tr > 
+                            <div > 
+                                 <td><input type=" button" value="register" class="submit_button"/> </td>   
+                            </div>
+                        </tr> 
+                        
+                        
+                        
+                        <!-- +++++++++++++++++++++++++++++++++++++++++++++++++++-->
+                        <button type="submit" class="container">Login</button>
+                        <label> <input type="checkbox" checked="checked" name="remember"> Remember me
+                        </label>
+                    </div>
+
+                    <div class="container" style="background-color:#f1f1f1">
+                        <button type="button" class="cancelbtn">Cancel</button>
+                        <span class="psw">Forgot <a href="#">password?</a></span>
+                    </div>
+
+
+
+
+
+
+
+                    </table>
+        </form>
+</body> 
+</html>
